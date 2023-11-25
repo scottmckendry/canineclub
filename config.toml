@@ -1,4 +1,4 @@
-baseURL       = "https://canineclub.nz"
+baseURL       = "https://scottmckendry.github.io/canineclub"
 languageCode  = "en-nz"
 title         = "Canine Club | Dog Walking Selwyn"
 theme         = "roxo-hugo"
