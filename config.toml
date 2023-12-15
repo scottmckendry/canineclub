@@ -71,7 +71,7 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Dog Walking, Done Right"
+    heading               = "Pack Walking, Done Right"
     tagline               = "TREAT YOUR BEST FRIEND"
     primary_button        = "See Our Works"
     primary_button_url    = "portfolio"
