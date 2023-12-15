@@ -92,7 +92,7 @@ summarylength = 25
   [params.call_to_action]
     enable              = true
     background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WORK TOGETHER"
+    title               = "LET’S WALK TOGETHER"
     primary_button      = "Submit Query"
     primary_button_url  = "contact"
     secondary_button    = "Not Convinced"
