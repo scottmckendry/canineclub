@@ -1,29 +1,43 @@
-{{ with .Site.Data.team }}
-  {{ if .enable }}
-  <section class="site-team" id="team">
+{{ with .Site.Data.team }} {{ if .enable }}
+<section class="site-team" id="team">
     <div class="container">
-      <div class="row">
-        <div class="col-12">
-          <div class="section-title" >
-            {{ with .heading }}<h2>{{ . }}</h2>{{ end }}
-            {{ with .tagline }}<p>{{ . }}</p>{{ end }}
-          </div>
-        </div>
-        {{ range .team_member}}
-        <div class="col-12 col-lg-6 mx-auto">
-          <div class="site-team-item">
-            <div class="site-team-item-thumb">
-              <img src="{{ .image }}" {{ with .small_title }}alt="{{ . }}"{{ end }}>
+        <div class="row">
+            <div class="col-12">
+                <div class="section-title">
+                    {{ with .heading }}
+                    <h2>{{ . }}</h2>
+                    {{ end }} {{ with .tagline }}
+                    <p>{{ . }}</p>
+                    {{ end }}
+                </div>
             </div>
-            <div class="site-team-item-content">
-              {{ with .title }}<span>{{ . }}</span>{{ end }}
-                        {{ with .text }}<p>{{ . | markdownify }}</p>{{ end }}
+            {{ range .team_member}}
+            <div class="col-12 col-lg-6 mx-auto">
+                <div class="site-team-item">
+                    <div class="site-team-item-thumb">
+                        <img
+                            src="{{ .image }}"
+                            {{
+                            with
+                            .small_title
+                            }}alt="{{ . }}"
+                            {{
+                            end
+                            }}
+                        />
+                    </div>
+                    <div class="site-team-item-content">
+                        {{ with .title }}<span>{{ . }}</span>{{ end }} {{ with
+                        .subtitle }}
+                        <h5>{{ . }}</h5>
+                        {{ end }} {{ with .text }}
+                        <p>{{ . | markdownify }}</p>
+                        {{ end }}
+                    </div>
+                </div>
             </div>
-          </div>
+            {{ end }}
         </div>
-        {{ end }}
-      </div>
     </div>
-  </section>
-  {{ end }}
-{{ end }}
+</section>
+{{ end }} {{ end }}
