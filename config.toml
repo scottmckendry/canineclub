@@ -52,7 +52,7 @@ summarylength = 25
   [params.banner]
     enable                = true
     background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Pack Walking, Done Right"
+    heading               = "Dog Walking, Done Right"
     tagline               = "TREAT YOUR BEST FRIEND"
     secondary_button      = "Connect with Us"
     secondary_button_url  = "https://www.facebook.com/messages/t/110205928387109/"
