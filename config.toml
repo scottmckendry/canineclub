@@ -12,21 +12,17 @@ summarylength = 25
     url     = ""
     weight  = 1
   [[menu.nav]]
-    name    = "About"
-    url     = "about"
+    name    = "Services"
+    url     = "services"
     weight  = 2
   [[menu.nav]]
-    name    = "Portfolio"
-    url     = "portfolio"
+    name    = "FAQ"
+    url     = "faq"
     weight  = 3
-  [[menu.nav]]
-    name    = "Blog"
-    url     = "blog"
-    weight  = 4
   [[menu.nav]]
     name    = "Get in touch"
     url     = "https://www.facebook.com/messages/t/110205928387109/"
-    weight  = 5
+    weight  = 4
 
 # Site Params
 [params]
