@@ -1,0 +1,50 @@
+{{ define "main" }}
+<section class="site-about-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="site-about-wrapper">
+                    <div class="site-about-company">
+                        <h1>{{ .Params.Title }}</h1>
+                    </div>
+                    <div class="site-about-description">
+                        <p>{{ .Params.Description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="site-expertise">
+    <div class="container">
+        <div class="section-title">
+            <h2>{{ .Params.services_title }}</h2>
+            <p>{{ .Params.services_description }}</p>
+        </div>
+    </div>
+</section>
+
+<section class="gallery">
+    <div class="container">
+        <div id="curator-feed-default-feed-layout"></div>
+        <script type="text/javascript">
+            /* curator-feed-default-feed-layout */
+            (function () {
+                var i,
+                    e,
+                    d = document,
+                    s = "script";
+                i = d.createElement("script");
+                i.async = 1;
+                i.charset = "UTF-8";
+                i.src =
+                    "https://cdn.curator.io/published/b7fcb128-d7f4-4d33-aefc-8c4290352d00.js";
+                e = d.getElementsByTagName(s)[0];
+                e.parentNode.insertBefore(i, e);
+            })();
+        </script>
+    </div>
+</section>
+
+{{ partial "call-to-action.html" . }} {{ end }}
