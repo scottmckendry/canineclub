@@ -21,4 +21,11 @@ A free meet and greet gives me a chance to introduce myself and explain what pac
 If we’re both happy, we can then progress during the same session to an offsite assessment. This assessment gives me a chance to introduce your dog to the car, work your dog at a local park or quiet area, see what they do/don’t already know and introduce some leash work. 
 
 Before a dog can then join a pack, they’ll require at minimum 2 solo walks with me and my lead dog. The solo walk will be approx 45 minutes and $50. This gives me a chance to really establish a relationship with your dog, show them what I require from them and for them to be able to get a taste of pack walk life before introducing them into a pack."
+
+"Pack Walk Prices 
+
+Pack Walks are $45 per walk, and must require a weekly commitment. 
+If your dog cannot make their regular day for any reason please give me as much notice as possible. 
+Any cancellations on the morning of your walk will require full payment to be made. Exceptions apply. "
+
 ---
