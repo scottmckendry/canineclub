@@ -1,0 +1,236 @@
+// html{
+//   scroll-behavior: smooth;
+// }
+
+body {
+    background: $body-color;
+}
+
+.section-title {
+    margin-bottom: 70px;
+    @include desktop {
+        text-align: center;
+    }
+    h2 {
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        @include desktop {
+            font-size: 40px;
+        }
+    }
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0;
+    margin-bottom: 30px;
+    padding: 0 0 10px 0;
+    border-width: 0 0 1px 0;
+    border-color: $primary-color;
+    font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-appearance: none;
+    height: 42px;
+    &:focus {
+        box-shadow: none;
+        background: transparent;
+        border-color: $text-color;
+    }
+}
+
+select.form-control {
+    height: 42px !important;
+    position: relative;
+}
+
+.select-wrapper {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 10px;
+        background: url("../images/angle-down-select.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-80%);
+    }
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+body {
+    background: $body-color;
+}
+
+.section-title {
+    margin-bottom: 70px;
+    @include desktop {
+        text-align: center;
+    }
+    h2 {
+        font-weight: 300;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        margin-bottom: 15px;
+        @include desktop {
+            font-size: 40px;
+        }
+    }
+    p {
+        font-size: 20px;
+        font-weight: 300;
+    }
+}
+
+.form-control {
+    background: transparent;
+    border-radius: 0;
+    margin-bottom: 30px;
+    padding: 0 0 10px 0;
+    border-width: 0 0 1px 0;
+    border-color: $primary-color;
+    font-weight: 300;
+    letter-spacing: 1px;
+    -webkit-appearance: none;
+    height: 42px;
+    &:focus {
+        box-shadow: none;
+        background: transparent;
+        border-color: $text-color;
+    }
+}
+
+select.form-control {
+    height: 42px !important;
+    position: relative;
+}
+
+.select-wrapper {
+    position: relative;
+    &::before {
+        content: "";
+        position: absolute;
+        width: 16px;
+        height: 10px;
+        background: url("../images/angle-down-select.svg");
+        background-size: contain;
+        background-repeat: no-repeat;
+        right: 15px;
+        top: 50%;
+        transform: translateY(-80%);
+    }
+}
+
+textarea.form-control {
+    height: auto;
+}
+
+.gallery {
+    background: $gray;
+    padding: 70px 0;
+}
+
+.accordion {
+    padding: 40px 0;
+    .accordion-item {
+        border-bottom: 1px solid #e5e5e5;
+        button[aria-expanded="true"] {
+            border-bottom: 1px solid #e5e5e5;
+        }
+    }
+    button {
+        color: $text-color;
+        position: relative;
+        display: block;
+        text-align: left;
+        width: 100%;
+        padding: 1em 0;
+        font-size: 1.15rem;
+        font-weight: 400;
+        border: none;
+        background: none;
+        outline: none;
+        &:hover,
+        &:focus {
+            cursor: pointer;
+            color: $primary-color;
+            &::after {
+                cursor: pointer;
+                color: $text-color;
+                border: 1px solid $text-color;
+            }
+        }
+        .accordion-title {
+            padding: 1em 1.5em 1em 0;
+        }
+        .icon {
+            display: inline-block;
+            position: absolute;
+            top: 18px;
+            right: 0;
+            width: 22px;
+            height: 22px;
+            border: 1px solid;
+            border-radius: 22px;
+            &::before {
+                display: block;
+                position: absolute;
+                content: "";
+                top: 9px;
+                left: 5px;
+                width: 10px;
+                height: 2px;
+                background: currentColor;
+            }
+            &::after {
+                display: block;
+                position: absolute;
+                content: "";
+                top: 5px;
+                left: 9px;
+                width: 2px;
+                height: 10px;
+                background: currentColor;
+            }
+        }
+    }
+    button[aria-expanded="true"] {
+        color: $primary-color;
+        .icon {
+            &::after {
+                width: 0;
+            }
+        }
+        + .accordion-content {
+            opacity: 1;
+            max-height: 9em;
+            transition: all 200ms linear;
+            will-change: opacity, max-height;
+        }
+    }
+    .accordion-content {
+        opacity: 0;
+        max-height: 0;
+        overflow: hidden;
+        transition:
+            opacity 200ms linear,
+            max-height 200ms linear;
+        will-change: opacity, max-height;
+        p {
+            font-size: 1rem;
+            font-weight: 300;
+            margin: 2em 0;
+        }
+    }
+}

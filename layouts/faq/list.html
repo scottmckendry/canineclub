@@ -1,0 +1,53 @@
+{{ define "main" }}
+<section class="site-about-header">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <div class="site-about-wrapper">
+                    <div class="site-about-company">
+                        <h1>{{ .Params.Heading }}</h1>
+                    </div>
+                    <div class="site-about-description">
+                        <p>{{ .Params.Description }}</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<div class="container">
+    <div class="accordion">
+        {{ range .Params.questions }}
+        <div class="accordion-item">
+            <button id="accordion-button-1" aria-expanded="false">
+                <span class="accordion-title">{{ .question }}</span
+                ><span class="icon" aria-hidden="true"></span>
+            </button>
+            <div class="accordion-content">
+                <p>{{ .answer }}</p>
+            </div>
+        </div>
+        {{ end }}
+        </div>
+    </div>
+</div>
+
+<script type="text/javascript">
+    const items = document.querySelectorAll(".accordion button");
+
+    function toggleAccordion() {
+        const itemToggle = this.getAttribute("aria-expanded");
+
+        for (i = 0; i < items.length; i++) {
+            items[i].setAttribute("aria-expanded", "false");
+        }
+
+        if (itemToggle == "false") {
+            this.setAttribute("aria-expanded", "true");
+        }
+    }
+
+    items.forEach((item) => item.addEventListener("click", toggleAccordion));
+</script>
+{{ partial "call-to-action.html" . }} {{ end }}
