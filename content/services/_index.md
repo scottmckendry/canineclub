@@ -1,31 +1,32 @@
 ---
 title: "Canine Club | Services"
-heading: "We offer a range of services for you and your dog."
-description: "We offer a range of services for you and your dog. From dog walking to dog training, we have you covered."
+heading: "Dog walking, done right."
+description: "Helping as many dogs as possible live their best lives."
 services_title: "Pack Walks"
-services_description: "Pack Walks are an adventure for your dog. 1.5-3hours walks in a range of environments. Through rivers, bush, forest trails and city walks, we’ll do it all. We’re all about teaching dogs confidence in new environments and how to handle themselves in high stimulation settings. 
+services_description: "Experience the thrill of Pack Walks for your canine companion, encompassing invigorating 1.5-3 hour excursions across diverse landscapes, spanning rivers, bushlands, forest trails, and urban settings. 
+Our primary focus is instilling confidence in dogs in a range of environments and guiding them to make good choices during high-stimulation scenarios. 
+Each dog undergoes tailored training during walks, blending obedience and leash etiquette, encompassing basic commands such as follow, sit, down, stay, and recall. 
+We prioristise fostering a calm and respectful demeanor on and off-leash during outings. 
+Initially, dogs are kept on leash for several weeks to learn our routine, build a relationship with both myself and fellow pack members, foster clear expectations, gain respect and trust, and eliminate flight risks. 
+Pack sizes are deliberately limited to ensure individual attention, with new dogs integrated based on compatibility and suitability.
+Currently serving Rolleston, West Melton, and adjacent areas; for inquiries regarding coverage, please reach out. 
 
-All dogs will receive the training they are required for their walks - a mixture of obedience and leash training. Basic commands such as follow, sit, down, stay, and recall. They are taught to be calm and respectful while on walks, both on and off-lead. 
+Ready to embark on this journey? A complimentary meet-and-greet initiates our interaction, offering insights into Pack Walks and facilitating an understanding of your dog's temperament and preferences to ensure a harmonious fit. Next, an offsite assessment session acquaints your dog with car travel, allows me to assess existing skills, and introduces leash training in a controlled environment. 
+Prior to pack integration, dogs undergo a minimum of two solo walks alongside myself and my lead dog, each lasting approximately 45 minutes at a rate of $50 per session. 
+This foundational step establishes a relationship, familiarises dogs with expectations, and provides a glimpse into the pack walk experience.
 
-When adventuring, dogs are kept on lead for several weeks when they start out while they learn the ropes from myself and the other dogs, or if ears switch off. This helps set (or reset) expectations, establish a relationship with the dog, and minimises risk of the dog taking off. 
- 
-Pack sizes are limited to allow time to work with each dog as needed, and dogs are added in order of best fit and suitability. New dogs are introduced slowly to give them time to find their place - much like first days at a new school. Some take longer than others, and some are better suited moved to a different group, and that's OK. Ultimately it's about what suits both the dog and the pack. 
+Pack Walks are priced at $45 per session, requiring a weekly commitment. 
 
-Currently servicing Rolleston, West Melton & surrounds. If you’re not sure if your area is covered, get in touch! 
+Cancellation Policy: 
 
+We understand that unforeseen circumstances may arise, necessitating the cancellation of scheduled dog walks. To ensure the smooth operation of our services and to accommodate the needs of all our clients, we have implemented the following cancellation policy:
 
-How do we get started? 
+1. Notice Requirement: Clients are kindly requested to provide at least 24 hours' notice before the scheduled walk if they need to cancel or reschedule.
 
-A free meet and greet gives me a chance to introduce myself and explain what pack walks are all about. During this time I’ll also be able to find out more about your dog and what makes them tick, and suss out if they’ll be a good fit. 
+2. Cancellations on the Morning of the Walk: Walks cancelled on the morning of the scheduled walk will incur the full payment, except in cases of documented dog injury or other emergency situations.
 
-If we’re both happy, we can then progress during the same session to an offsite assessment. This assessment gives me a chance to introduce your dog to the car, work your dog at a local park or quiet area, see what they do/don’t already know and introduce some leash work. 
+3. Exceptions: We recognize that emergencies can occur, and exceptions to the cancellation policy will be made in cases of documented dog injury or other unforeseen emergencies. Clients are encouraged to notify us as soon as possible in such circumstances.
 
-Before a dog can then join a pack, they’ll require at minimum 2 solo walks with me and my lead dog. The solo walk will be approx 45 minutes and $50. This gives me a chance to really establish a relationship with your dog, show them what I require from them and for them to be able to get a taste of pack walk life before introducing them into a pack.
-
-Pack Walk Prices 
-
-Pack Walks are $45 per walk, and must require a weekly commitment. 
-If your dog cannot make their regular day for any reason please give me as much notice as possible. 
-Any cancellations on the morning of your walk will require full payment to be made. Exceptions apply. "
+By engaging our services, clients agree to adhere to the terms of this cancellation policy. Your cooperation in providing timely notice of cancellations is greatly appreciated and helps us maintain the quality and reliability of our dog walking services. Thank you for your understanding."
 
 ---
