@@ -12,7 +12,7 @@ questions:
     - question: "How long are the dogs out for?"
       answer: "The duration of your dog's outing typically ranges from 2 to 4 hours, contingent upon factors such as the chosen route, the size of the walking group, and your dog's placement on the pickup roster."
     - question: "Is there an age requirememt?"
-      answer: "Dogs must be over one year old to participate, ensuring both their mental and physical maturity."
+      answer: "Dogs must be over one year old to participate."
     - question: "Do you take entire dogs?"
       answer: "Ideally, dogs should be neutered or spayed, unless specific circumstances dictate otherwise. If your dog is intact, please contact us to discuss further"
     - question: "Do I have to commit to weekly walks?"
@@ -20,5 +20,5 @@ questions:
     - question: "Do you have a cancellation policy?"
       answer: "Yes, any cancellations made on the morning of the walk must be paid in full. However, exceptions will be considered for emergency circumstances. The full cancellation policy can be found on our Services page."
     - question: "Do they need to have any prior training?"
-      answer: "No, while a dog that has undergone training is more likely to successfully integrate into the pack faster, ultimately, I am committed to providing all training necessary to ensure the dog becomes a confident member of the pack. It's important to recognize that a dog may exhibit desirable behaviour during walks under my guidance due to the diligent effort invested in training. However, this does not guarantee the same behaviour when handled by others. Should you seek assistance with leash training, I am available to recommend reputable local trainers. Please feel free to reach out for further guidance."
+      answer: "No, while a dog that has undergone training is more likely to successfully integrate into the pack faster, ultimately, I am committed to providing all training necessary to ensure the dog becomes a well-behaved member of the pack. It's important to recognize that a dog may behave nicely during walks under my guidance due to the effort invested in training. However, this does not guarantee the same behaviour when handled by others. Should you require assistance with leash training, I am happy to recommend reputable local trainers. Please feel free to reach out for further guidance."
 ---
