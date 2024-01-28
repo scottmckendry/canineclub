@@ -1,110 +1,90 @@
-baseURL       = "https://canineclub.nz"
-languageCode  = "en-nz"
-title         = "Canine Club | Dog Walking Selwyn"
-theme         = "roxo-hugo"
+baseURL = "https://canineclub.nz"
+languageCode = "en-nz"
+title = "Canine Club | Dog Walking Selwyn"
+theme = "roxo-hugo"
 summarylength = 25
 
 # Site Menus
 [menu]
-  # Navbar Menus
-  [[menu.nav]]
-    name    = "Home"
-    url     = ""
-    weight  = 1
-  [[menu.nav]]
-    name    = "Services"
-    url     = "services"
-    weight  = 2
-  [[menu.nav]]
-    name    = "FAQ"
-    url     = "faq"
-    weight  = 3
-  [[menu.nav]]
-    name    = "Get in touch"
-    url     = "https://www.facebook.com/messages/t/110205928387109/"
-    weight  = 4
+# Navbar Menus
+[[menu.nav]]
+name = "Home"
+url = ""
+weight = 1
+[[menu.nav]]
+name = "Services"
+url = "services"
+weight = 2
+[[menu.nav]]
+name = "FAQ"
+url = "faq"
+weight = 3
+[[menu.nav]]
+name = "Get in touch"
+url = "https://www.facebook.com/messages/t/110205928387109/"
+weight = 4
 
 # Site Params
 [params]
-  logo = "images/logo.png"
-  logo_footer = "images/logo-footer.png"
-  favicon_icon = "images/favicon.ico"
-  favicon_shortcut_icon = "images/favicon.png"
-  custom_stylesheets = []   # [ "scss/my_1.scss", "scss/my_2.scss" ]
-  dateFormat = "26 FEB 1994"
-  # Meta data
-  description = "Canine Club | Professional Pack Walking, Selwyn NZ"
-  author = "Rhianna McKendry"
-  # Google Analitycs
-  googleAnalitycsID = "Your ID"
+logo = "images/logo.png"
+logo_footer = "images/logo-footer.png"
+favicon_icon = "images/favicon.ico"
+favicon_shortcut_icon = "images/favicon.png"
+custom_stylesheets = []                      # [ "scss/my_1.scss", "scss/my_2.scss" ]
+dateFormat = "26 FEB 1994"
+# Meta data
+description = "Canine Club | Professional Pack Walking, Selwyn NZ"
+author = "Rhianna McKendry"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
 
-  # Navbar Action Button
-  [params.navAction]
-    status  = true
-    name    = "Get in touch"
-    url     = "contact"
+# Navbar Action Button
+[params.navAction]
+status = true
+name = "Get in touch"
+url = "contact"
 
-  # Banner Section
-  [params.banner]
-    enable                = true
-    background_image      = "images/backgrounds/hero-background.jpg"
-    heading               = "Dog Walking, Done Right"
-    tagline               = "TREAT YOUR BEST FRIEND"
-    secondary_button      = "Connect with Us"
-    secondary_button_url  = "https://www.facebook.com/messages/t/110205928387109/"
+# Banner Section
+[params.banner]
+enable = true
+background_image = "images/backgrounds/hero-background.jpg"
+heading = "Dog Walking, Done Right"
+tagline = "TREAT YOUR BEST FRIEND"
+secondary_button = "Contact Us"
+secondary_button_url = "https://www.facebook.com/messages/t/110205928387109/"
 
-  [params.blog]
-    read_more             = "read more"
+[params.blog]
+read_more = "read more"
 
-  [params.portfolio]
-    enable    = true
-    title     = "OUR RECENT WORKS"
-    subtitle  = "Crafting experiences and seeking to make the complex clear & beautiful."
-    view_project = "view project"
-    more_works = "MORE WORKS"
-    scroll_down = "scroll down"
+[params.portfolio]
+enable = true
+title = "OUR RECENT WORKS"
+subtitle = "Crafting experiences and seeking to make the complex clear & beautiful."
+view_project = "view project"
+more_works = "MORE WORKS"
+scroll_down = "scroll down"
 
-  [params.call_to_action]
-    enable              = true
-    background_image    = "images/backgrounds/cta-background.jpg"
-    title               = "LET’S WALK TOGETHER"
-    primary_button      = "Submit Query"
-    primary_button_url  = "https://www.facebook.com/messages/t/110205928387109/"
+[params.call_to_action]
+enable = true
+background_image = "images/backgrounds/cta-background.jpg"
+title = "LET’S WALK TOGETHER"
+primary_button = "Submit Query"
+primary_button_url = "https://www.facebook.com/messages/t/110205928387109/"
 
-  [params.footer]
-    params.footer.qr_print = false
-    # Footer Contact Info
-    [params.footer.contactInfo]
-      title   = "Contact Info"
-      address = "Rhianna McKendry"
-      email   = "canineclubnz@gmail.com"
-      # Footer Sitemap
-      [params.footer.sitemap]
-        title   = "Sitemap"
-        [[params.footer.sitemap.link]]
-          name = "About Company"
-          url  = "about"
-        [[params.footer.sitemap.link]]
-          name = "Projects"
-          url  = "portfolio"
-        [[params.footer.sitemap.link]]
-          name = "Blog"
-          url  = "blog"
-        [[params.footer.sitemap.link]]
-          name = "Contact"
-          url  = "contact"
-      # Footer Social Media
-      [params.footer.social]
-        title   = "Social Media"
-        [[params.footer.social.link]]
-          name = "Facebook"
-          url  = "https://www.facebook.com/canineclubrolleston"
-        [[params.footer.social.link]]
-          name = "Instagram"
-          url  = "https://www.instagram.com/canineclubnz/"
-      # Footer Service
-      [params.footer.service]
-        title       = "We help brands:"
-        description = "develop design solutions<br>produce valuable cultural content<br>create fresh brand experience"
-      [params.footer.back_to_top]
-        description = "Back to top"
+[params.footer]
+params.footer.qr_print = false
+# Footer Contact Info
+[params.footer.contactInfo]
+title = "Contact Info"
+address = "Rhianna McKendry"
+email = "canineclubnz@gmail.com"
+[params.footer.social]
+title = "Social Media"
+[[params.footer.social.link]]
+name = "Facebook"
+url = "https://www.facebook.com/canineclubrolleston"
+[[params.footer.social.link]]
+name = "Instagram"
+url = "https://www.instagram.com/canineclubnz/"
+[params.footer.back_to_top]
+description = "Back to top"
