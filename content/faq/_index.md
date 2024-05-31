@@ -16,7 +16,7 @@ questions:
     - question: "Do you take entire dogs?"
       answer: "Ideally, dogs should be neutered or spayed, unless specific circumstances dictate otherwise. If your dog is intact, please contact us to discuss further"
     - question: "Do I have to commit to weekly walks?"
-      answer: "Indeed, to maintain consistency in training and the stability of the pack, a weekly commitment is mandatory upon signing up."
+      answer: "Yes, to maintain consistency in training and the stability of the pack, a weekly commitment is mandatory upon signing up."
     - question: "Do you have a cancellation policy?"
       answer: "Yes, any cancellations made on the morning of the walk must be paid in full. However, exceptions will be considered for emergency circumstances. The full cancellation policy can be found at the bottom of our Services page."
     - question: "Do they need to have any prior training?"
