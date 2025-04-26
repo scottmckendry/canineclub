@@ -48,6 +48,7 @@ url = "contact"
 [params.banner]
 enable = true
 background_image = "images/backgrounds/hero-background.jpg"
+background_video = "images/backgrounds/hero-background.webm"
 heading = "Dog Walking, Done Right"
 tagline = "TREAT YOUR BEST FRIEND"
 secondary_button = "Contact Us"

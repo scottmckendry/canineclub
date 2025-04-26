@@ -1,9 +1,9 @@
 {{ with .Site.Params.banner }} {{ if .enable }} {{ "<!-- Site Hero Start -->" |
 safeHTML }}
-<section
-    class="site-hero"
-    style="background-image: url('{{ .background_image }}');"
->
+<section class="site-hero">
+    <video autoplay muted loop class="hero-background" poster="{{ .background_image }}" preload="auto">
+        <source src="{{ .background_video }}" type="video/mp4">
+    </video>
     <div class="container">
         <div class="row">
             <div class="col-lg-10 mx-auto">
