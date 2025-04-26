@@ -47,7 +47,7 @@ url = "contact"
 # Banner Section
 [params.banner]
 enable = true
-background_image = "images/backgrounds/hero-background.jpg"
+background_image = "images/backgrounds/hero-background.webp"
 background_video = "images/backgrounds/hero-background.webm"
 heading = "Dog Walking, Done Right"
 tagline = "TREAT YOUR BEST FRIEND"
@@ -67,7 +67,7 @@ scroll_down = "scroll down"
 
 [params.call_to_action]
 enable = true
-background_image = "images/backgrounds/cta-background.jpg"
+background_image = "images/backgrounds/cta-background.webp"
 title = "LET’S WALK TOGETHER"
 primary_button = "Submit Query"
 primary_button_url = "https://www.facebook.com/messages/t/110205928387109/"
