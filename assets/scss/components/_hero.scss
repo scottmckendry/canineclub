@@ -1,6 +1,6 @@
 .site-hero {
     position: relative;
-    height: 100vh;
+    height: 60vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -10,12 +10,13 @@
         padding: 200px 0;
     }
     @include mobile {
+        height: 50vh;
         padding: 150px 0;
     }
 
     // Add darkening overlay
     &::before {
-        content: '';
+        content: "";
         position: absolute;
         top: 0;
         left: 0;
@@ -30,17 +31,16 @@
         position: absolute;
         top: 50%;
         left: 50%;
-        min-width: 100%;
-        min-height: 100%;
-        width: auto;
-        height: auto;
+        // slightly oversize to prevent letterboxing
+        height: 125%;
+        width: 100%;
         z-index: -1;
         transform: translateX(-50%) translateY(-50%);
         object-fit: cover;
     }
 
     &-content {
-        position: relative; 
+        position: relative;
         z-index: 1;
         h6 {
             color: $white;
@@ -53,7 +53,8 @@
                 margin-bottom: 50px;
             }
             @include mobile {
-                font-size: 40px;
+                font-size: 24px;
+                margin-bottom: 30px;
             }
         }
         &-buttons {
